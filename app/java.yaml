@@ -1,0 +1,7 @@
+# apiVersion: example.com/v1
+# kind: JavaApplication
+# metadata:
+#   name: test-java
+# spec:
+#   application: team/my-app
+#   version: v1.0
