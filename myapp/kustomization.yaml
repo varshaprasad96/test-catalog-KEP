@@ -1,0 +1,7 @@
+# $MYAPP/kustomization.yaml
+resources:
+- service.yaml
+transformers:
+- annotator.yaml
+catalogs:
+- catalog.yaml

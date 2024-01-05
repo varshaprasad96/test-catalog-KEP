@@ -1,0 +1,14 @@
+apiVersion: config.kubernetes.io/v1alpha1
+kind: Catalog
+metadata: 
+  name: "example-co-functions"
+spec: 
+  krmFunctions: 
+  - group: transformers.example.co
+    names:
+      kind: ValueAnnotator
+    versions:
+    - name: v1
+      runtime:
+        container:
+          image: example.docker.com/my-functions/valueannotator:1.0.0

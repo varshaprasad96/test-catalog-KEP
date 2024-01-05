@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: core/v1
+metadata:
+  name: the-service
+spec:
+  type: LoadBalancer
+  ports:
+  - protocol: TCP
+    port: 8666
+    targetPort: 8080
